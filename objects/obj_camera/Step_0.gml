@@ -10,3 +10,6 @@ if(instance_exists(obj_ship)) {
 }
 
 camera_set_view_pos(view_camera[0], global.cameraX, global.cameraY);
+
+layer_x("background_0", global.cameraX * 0.98);
+layer_y("background_0", global.cameraY * 0.98);
