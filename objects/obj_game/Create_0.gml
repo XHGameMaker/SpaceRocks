@@ -6,3 +6,9 @@ lives = 3;
 
 draw_set_font(f_my);
 randomize();
+
+enum factions {
+	neutral,
+	ally,
+	enemy,
+}
