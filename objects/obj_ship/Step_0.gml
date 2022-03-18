@@ -24,8 +24,10 @@ if(keyboard_check_pressed(vk_space)){
 	var inst = instance_create_layer(x, y, "Instances", obj_bullet);
 	var _create = id;
 	var _faction = faction;
+	var _image_angle = image_angle;
+	show_debug_message(_create);
 	with(inst){
-		direction = image_angle;
+		direction = _image_angle;
 		speed = 6;
 		faction = _faction;
 		creator = _create;
