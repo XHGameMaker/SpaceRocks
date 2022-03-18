@@ -35,6 +35,7 @@
     {"id":{"name":"rm_game_over","path":"rooms/rm_game_over/rm_game_over.yy",},"order":2,},
     {"id":{"name":"spr_asteroid_med","path":"sprites/spr_asteroid_med/spr_asteroid_med.yy",},"order":2,},
     {"id":{"name":"obj_ship","path":"objects/obj_ship/obj_ship.yy",},"order":0,},
+    {"id":{"name":"spawn_bullet","path":"scripts/spawn_bullet/spawn_bullet.yy",},"order":1,},
     {"id":{"name":"snd_hurt","path":"sounds/snd_hurt/snd_hurt.yy",},"order":3,},
     {"id":{"name":"snd_zap","path":"sounds/snd_zap/snd_zap.yy",},"order":0,},
     {"id":{"name":"background_4","path":"sprites/background_4/background_4.yy",},"order":3,},
