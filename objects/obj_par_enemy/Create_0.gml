@@ -10,3 +10,4 @@ image_angle = direction;
 bullet_speed = 4;
 
 HP = 1;
+bulletCounter = 0;

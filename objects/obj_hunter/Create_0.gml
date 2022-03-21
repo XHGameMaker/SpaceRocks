@@ -4,5 +4,5 @@
 // Inherit the parent event
 event_inherited();
 
-speed = 2;
-bullet_speed = 6;
+speed = 3;
+originalSpeed = speed;
