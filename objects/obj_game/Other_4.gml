@@ -8,6 +8,10 @@ if(room == rm_game){
 	audio_play_sound(msc_song, 2, true);
 	
 	spawn_off_camera(obj_asteroid, 30);
+	
+	spawn_off_camera(obj_raider, 18);
+	spawn_off_camera(obj_brute, 13);
+	spawn_off_camera(obj_hunter, 15);
 
 	//repeat(6) {
 	//	var xx = choose(

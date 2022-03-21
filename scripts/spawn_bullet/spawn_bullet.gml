@@ -20,3 +20,10 @@ function spawn_bullet_by_ship(ship){
 		}
 	}
 }
+
+function destroy_with_debris(obj, repeate_num) {
+	audio_play_sound(snd_die, 1, false);
+	repeat(repeate_num) {
+		instance_create_layer(obj.x, obj.y, "Instances", obj_debris);
+	}
+}
