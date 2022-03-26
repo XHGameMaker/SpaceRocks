@@ -8,4 +8,4 @@ HP = 5;
 speed = 1;
 image_speed = 0;
 originalSpeed = speed
-sprite_index = HP - 1;
+image_index = HP - 1;
