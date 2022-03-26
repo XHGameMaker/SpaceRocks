@@ -3,6 +3,8 @@
 
 destroy_with_debris(self, 10);
 
+global.cameraShake = 4;
+
 switch(object_index) {
 	case obj_raider: score += 15; break;
 	case obj_hunter: score += 30; break;

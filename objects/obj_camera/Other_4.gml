@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+global.cameraShake = 0;
 global.cameraX = 0;
 global.cameraY = 0;
 

@@ -8,15 +8,19 @@ audio_play_sound(snd_die, 1, false);
 instance_destroy();
 	
 if(sprite_index == spr_asteroid_huge){
+	global.cameraShake = 4;
 	repeat(2) {
 		var inst = instance_create_layer(x, y, "Instances", obj_asteroid);
 		inst.sprite_index = spr_asteroid_med;
 	}
 } else if(sprite_index == spr_asteroid_med){
+	global.cameraShake = 2;
 	repeat(2) {
 		var inst = instance_create_layer(x, y, "Instances", obj_asteroid);
 		inst.sprite_index = spr_asteroid_small;
 	}
+} else {
+	global.cameraShake = 1;
 }
 	
 repeat(10) {
