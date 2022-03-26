@@ -27,6 +27,7 @@
     {"id":{"name":"spr_enemy_brute_strip5","path":"sprites/spr_enemy_brute_strip5/spr_enemy_brute_strip5.yy",},"order":0,},
     {"id":{"name":"obj_par_enemy","path":"objects/obj_par_enemy/obj_par_enemy.yy",},"order":2,},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"order":4,},
+    {"id":{"name":"obj_laser","path":"objects/obj_laser/obj_laser.yy",},"order":11,},
     {"id":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},"order":3,},
     {"id":{"name":"obj_hunter","path":"objects/obj_hunter/obj_hunter.yy",},"order":1,},
     {"id":{"name":"spr_asteroid_small","path":"sprites/spr_asteroid_small/spr_asteroid_small.yy",},"order":1,},

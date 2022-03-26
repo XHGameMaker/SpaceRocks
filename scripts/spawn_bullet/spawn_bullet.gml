@@ -65,6 +65,12 @@ function spawn_bullet_by_ship(ship){
 			
 		case powerups.laser_bullets:
 			n = 0;
+			var inst = instance_create_layer(ship.x, ship.y, "Instances", obj_laser);
+			with(inst){
+				direction = ship.image_angle + dir_offset;
+				faction = ship.faction;
+				creator = ship.id;
+			}
 			break;
 		
 	}
