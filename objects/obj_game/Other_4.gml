@@ -9,9 +9,9 @@ if(room == rm_game){
 	
 	spawn_off_camera(obj_asteroid, 30);
 	
-	//spawn_off_camera(obj_raider, 8);
-	//spawn_off_camera(obj_brute, 3);
-	//spawn_off_camera(obj_hunter, 5);
+	spawn_off_camera(obj_raider, 6);
+	spawn_off_camera(obj_brute, 3);
+	spawn_off_camera(obj_hunter, 2);
 	
 	spawn_off_camera(obj_powerup, 3);
 

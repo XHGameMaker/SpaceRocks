@@ -10,7 +10,6 @@ if(instance_exists(obj_ship)) {
 }
 
 if(global.cameraShake > 0){
-	show_debug_message(global.cameraShake);
 	global.cameraX += random_range(-global.cameraShake, global.cameraShake);
 	global.cameraY += random_range(-global.cameraShake, global.cameraShake);
 	global.cameraShake -= 0.2;

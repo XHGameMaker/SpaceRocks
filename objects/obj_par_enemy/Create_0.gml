@@ -11,3 +11,5 @@ bullet_speed = 4;
 
 HP = 1;
 bulletCounter = 0;
+
+particleCounter = 0;
