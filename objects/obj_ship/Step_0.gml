@@ -13,6 +13,15 @@ if(keyboard_check(vk_right)){
 
 if(keyboard_check(vk_up)){
 	motion_add(image_angle, 0.05);
+	
+	// 粒子
+	var len = sprite_height * 0.4;
+	var _x = x - lengthdir_x(len, image_angle);
+	var _y = y - lengthdir_y(len, image_angle);
+	with(obj_particles) {
+		part_particles_create(partSys, _x, _y, partTypeExhaust, 1);
+	}
+	
 }
 
 if(keyboard_check(vk_down)){
